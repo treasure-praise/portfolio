@@ -1,10 +1,14 @@
 import React from "react";
+import { FaExpandArrowsAlt } from "react-icons/fa";
 import { HiMenuAlt1 } from "react-icons/hi";
 
 const Header = () => {
   return (
     <div className="border-b-2 border-black flex justify-between items-center p-2">
-      <p>TheTruthAboutTreasure</p>
+      <p className="flex items-center">
+        <FaExpandArrowsAlt />
+        TheTruthAboutTreasure
+      </p>
       <button className="md:hidden">
         <HiMenuAlt1 />
       </button>
