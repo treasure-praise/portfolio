@@ -1,5 +1,5 @@
 import React from "react";
-import { FaExpandArrowsAlt } from "react-icons/fa";
+import { FaExpandArrowsAlt, FaFilePdf } from "react-icons/fa";
 import { HiMenuAlt1 } from "react-icons/hi";
 
 const Header = () => {
@@ -10,13 +10,29 @@ const Header = () => {
         TheTruthAboutTreasure
       </p>
       <button className="md:hidden">
-        <HiMenuAlt1 />
+        {/* <HiMenuAlt1 /> */}
+        <a
+          target="__blank"
+          href="https://drive.google.com/file/d/1ypBVJO3hMeixHS9LZvEQMvN5HNn5OLLm/view?usp=sharing"
+          className="mr-4 flex gap-2 items-center"
+        >
+          Resume
+          <FaFilePdf />
+        </a>
       </button>
       <nav className="hidden md:flex ">
         <ul className="md:flex ">
-          <li className="">About</li>
-          <li>Projects</li>
-          <li>Contacts</li>
+          <a
+            target="__blank"
+            href="https://drive.google.com/file/d/1ypBVJO3hMeixHS9LZvEQMvN5HNn5OLLm/view?usp=sharing"
+            className="mr-4 flex gap-2 items-center"
+          >
+            Resume
+            <FaFilePdf />
+          </a>
+          {/* <li className="">About</li> */}
+          {/* <li>Projects</li>
+          <li>Contacts</li> */}
         </ul>
       </nav>
     </div>

@@ -7,7 +7,7 @@ import {
   FaFigma,
   FaGithub,
 } from "react-icons/fa";
-import { SiJest } from "react-icons/si";
+import { SiJavascript, SiJest, SiRedux, SiStorybook } from "react-icons/si";
 
 const SkillsSection = () => {
   return (
@@ -78,8 +78,8 @@ const SkillsSection = () => {
           <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black "></span>
           <span class="absolute inset-0 w-full h-full bg-white border-2 border-black "></span>
           <span class="relative text-black flex items-center">
-            <p>ReactTestingLibrary</p>
-            <SiJest />
+            <p>StoryBook</p>
+            <SiStorybook />
           </span>
         </p>
 
@@ -97,7 +97,7 @@ const SkillsSection = () => {
           <span class="absolute inset-0 w-full h-full bg-white border-2 border-black "></span>
           <span class="relative text-black flex items-center">
             <p>Redux</p>
-            <SiJest />
+            <SiRedux />
           </span>
         </p>
 
@@ -106,7 +106,7 @@ const SkillsSection = () => {
           <span class="absolute inset-0 w-full h-full bg-white border-2 border-black "></span>
           <span class="relative text-black flex items-center">
             <p>JavaScript</p>
-            <SiJest />
+            <SiJavascript />
           </span>
         </p>
       </div>
