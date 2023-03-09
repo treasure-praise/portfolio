@@ -18,7 +18,7 @@ const Footer = () => {
         <a
           target="__blank"
           href="https://drive.google.com/file/d/1ypBVJO3hMeixHS9LZvEQMvN5HNn5OLLm/view?usp=sharing"
-          className="mr-4 flex gap-2 items-center"
+          className="mr-4 flex gap-2 items-center umami--click--checked-resume"
         >
           Resume
           <SiFiles />
@@ -27,7 +27,7 @@ const Footer = () => {
         <a
           target="__blank"
           href="mailto: thetreasureolatunbosun@gmail.com"
-          className="mr-4 flex gap-2 items-center"
+          className="mr-4 flex gap-2 items-center umami--click--email-click"
         >
           Email <FaAt />
         </a>
@@ -36,14 +36,14 @@ const Footer = () => {
         <a
           target="__blank"
           href="https://twitter.com/_futuretreasure"
-          className="mr-4 flex gap-2 items-center"
+          className="mr-4 flex gap-2 items-center umami--click--visited-twitter"
         >
           Twitter <FaTwitter />
         </a>
         <a
           target="__blank"
           href="https://github.com/treasure-praise"
-          className="mr-4 flex gap-2 items-center"
+          className="mr-4 flex gap-2 items-center umami--click--visited-Github"
         >
           Github
           <FaGithub />
@@ -51,7 +51,7 @@ const Footer = () => {
         <a
           target="__blank"
           href="https://www.linkedin.com/in/treasurepraiseolatunbosun/"
-          className="flex gap-2 items-center"
+          className="flex gap-2 items-center umami--click--visited-LinkedIn"
         >
           LinkedIn
           <FaLinkedin />
