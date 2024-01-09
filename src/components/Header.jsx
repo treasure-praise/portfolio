@@ -13,7 +13,7 @@ const Header = () => {
         {/* <HiMenuAlt1 /> */}
         <a
           target="__blank"
-          href="https://drive.google.com/file/d/1ypBVJO3hMeixHS9LZvEQMvN5HNn5OLLm/view?usp=sharing"
+          href="https://docs.google.com/document/d/156SCeKK36oijK0AUm3kzXcKh5QCLb9r6t9ocJNvtuw8/edit?usp=share_link"
           className="mr-4 flex gap-2 items-center"
         >
           Resume
